@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import re, json, glob, argparse
 from gensim.corpora import WikiCorpus, Dictionary
 from gensim.utils import to_unicode
