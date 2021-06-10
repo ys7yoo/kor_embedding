@@ -58,17 +58,17 @@ case $COMMAND in
         ;;
     dump-tokenized)
         echo "download tokenized data..."
-        mkdir -p /notebooks/embedding/data/processed
-        cd /notebooks/embedding/data
-        gdrive_download 1Ybp_DmzNEpsBrUKZ1-NoPDzCMO39f-fx /notebooks/embedding/data/tokenized.zip
+        mkdir -p notebooks/embedding/data/processed
+        cd notebooks/embedding/data
+        gdrive_download 1Ybp_DmzNEpsBrUKZ1-NoPDzCMO39f-fx notebooks/embedding/data/tokenized.zip
         unzip tokenized.zip
         rm tokenized.zip
         ;;
     dump-processed)
         echo "download processed data..."
-        mkdir -p /notebooks/embedding/data
-        cd /notebooks/embedding/data
-        gdrive_download 1kUecR7xO7bsHFmUI6AExtY5u2XXlObOG /notebooks/embedding/data/processed.zip
+        mkdir -p notebooks/embedding/data
+        cd notebooks/embedding/data
+        gdrive_download 1kUecR7xO7bsHFmUI6AExtY5u2XXlObOG notebooks/embedding/data/processed.zip
         unzip processed.zip
         rm processed.zip
         ;;
